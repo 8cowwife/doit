@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang= "eng"></HTML>
+<head>
+<title>DOIT!</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+<h1> DO IT</h1>
+
+<label for="Add">Category:</label>
+  <select onclick="showFunction()"name="Add" id="Add">
+      <option value="Home">Home</option>
+      <option value="Work">Work</option>
+    
+  </select>
+  <br><br>
+  <div class="container">
+    <div id="newtask">
+        <input type="text" placeholder="Task to be done..">
+        <button id="push">Add</button>
+    </div>
+    <div id="tasks"></div>
+</div>
+<button onclick="taskfunction()">seeTasks</button>
+<div> id="taskList">
+    This is my task list
+</div>
+<!--Script-->
+<script src="script.js"></script>
+</body>
+</html>
