@@ -16,6 +16,10 @@ function myFunction() {
   function showFunction () {
     document.getElementsByClassName("container")[0].style.display="block"
     console.log("showFunction")
+    var home_tasks= document.getElementsByClassName("home_tasks")
+    Array.from(home_tasks).forEach((element)=>{
+      element.style.display="block"
+    })
   }
   function taskFunction() {
     var x = document.getElementById("taskList");

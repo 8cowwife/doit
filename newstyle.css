@@ -1,0 +1,15 @@
+body {background-color: rgba(244, 76, 76, 0.336);}
+
+  .flex-container {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(116, 178, 240);
+  }
+  .flex-container > div {
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+  }

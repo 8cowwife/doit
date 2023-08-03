@@ -1,25 +1,24 @@
 body {background-color: darkcyan;}
-.container {
-    align-content: center;
-    display: none;
-    margin: 20px;
-    padding-top: 10px;
-}
+
 h1 {font-size: 100px;
 text-align: center;
-color: white
-font-family 'Dancing Script', cursive;
+color: white;
+font-family: 'Dancing Script', cursive;
 }
 h2 {font-size: 45px;
 color: white;
 text-align: center;
 }
+
 #taskList {
-    width: 30%;
+    width: 40%;
     border-style:dashed;
-    border-width:  5px; 
+    border-width:  3px; 
     text-align: center;
     background-color: aliceblue;
-    padding: 10px;
-    margin: 10px;
+    padding: 20px;
+    margin: 20px;
+}
+.home_tasks{
+display: none;
 }
